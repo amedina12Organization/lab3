@@ -72,6 +72,10 @@ input[type="submit"] {
 }
 
 @media screen and (min-width: 992px){
+  p{
+    padding-bottom: 70px;
+  }
+
   ol{
     padding-left: 15%;
     padding-right: 15%;
@@ -79,7 +83,7 @@ input[type="submit"] {
   #input-submit input[type="submit"]{
     width: 80%;
     height: 60px;
-    margin-top: 50px;
+    margin-top: 70px;
     font-size: 1.618em;
   }
     
