@@ -1,27 +1,62 @@
-body {
-    font-family: "Kode Mono", monospace;
-    width: 100%;
-    text-align: center;
-    line-height: 1.2em;
+body{
+  font-family: "Kode Mono", monospace;
+  width: 100%;
+  text-align: center;
+  line-height: 1.2em;
 }
   
-h1 {
+h1{
   font-weight: bold;
   font-size: 1.618em;
   padding: 10px;
   line-height: 1.2em;
 }
-p {
-    font-size: 1em;
-    padding-top: 5px;
-    padding-bottom: 10px;
 
-    box-sizing: border-box; 
-    text-align: center;
-
+p{
+  font-size: 1em;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  box-sizing: border-box; 
+  text-align: center;
 }
 
-/* Style for input fields */
+#input-email label{
+  display: inline-block;
+  width: 50px;
+  margin-right: 10px; 
+}
+  
+#input-email input{
+  display: inline-block;
+  width: calc(100% - 90px);
+  margin-bottom: 10px;
+  border-radius: 5%;
+}
+
+#input-age-verification label{
+  display: inline-block;
+  width: calc(100% - 53px);
+}
+  
+#input-age-verification input[type="checkbox"]{
+  display: inline-block;
+  width: auto;
+  accent-color: rgb(58, 58, 58);
+  height: 1em;
+  width: 1em;
+}
+
+#input-submit input[type="submit"]{
+  margin-top: 10px;
+  width: 38%;
+  border-radius: 5%;
+  font-family: "Kode Mono", monospace;
+  font-weight: 600;
+}
+
+  
+
+
 input[type="email"],
 input[type="checkbox"],
 input[type="submit"] {
@@ -30,11 +65,9 @@ input[type="submit"] {
   padding: 5px;
   width: 80%; 
   box-sizing: border-box;
-
-  
 }
+
+
 @media screen and (min-width: 960px){
-    body{
-        background-color: red;
-    }
+
 }
