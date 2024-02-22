@@ -37,6 +37,9 @@ p{
 #input-age-verification label{
   display: inline-block;
   width: calc(100% - 53px);
+  padding-bottom: 10px;
+  padding-top: 10px;
+  text-align: left;
 }
   
 #input-age-verification input[type="checkbox"]{
