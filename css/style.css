@@ -52,7 +52,7 @@ p{
 
 #input-submit input[type="submit"]{
   margin-top: 10px;
-  width: 38%;
+  width: 150px;
   border-radius: 5%;
   font-family: "Kode Mono", monospace;
   font-weight: 600;
