@@ -1,1 +1,35 @@
+body {
+    font-family: "Kode Mono", monospace;
+    width: 100%;
+    text-align: center;
+    line-height: 1.2em;
+}
+  
+h1 {
+  font-weight: bold;
+  font-size: 1.618em;
+  padding: 10px;
+  line-height: 1.2em;
+}
+p {
+    font-size: 1em;
+    text-align: left;
+}
 
+/* Style for input fields */
+input[type="email"],
+input[type="checkbox"],
+input[type="submit"] {
+  border: none;
+  background-color: #f0f0f0e6;
+  padding: 5px;
+  width: 80%; 
+  box-sizing: border-box;
+
+  
+}
+@media screen and (min-width: 960px){
+    body{
+        background-color: red;
+    }
+}
