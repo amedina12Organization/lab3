@@ -40,6 +40,9 @@ p{
   padding-bottom: 10px;
   padding-top: 10px;
   text-align: left;
+  white-space: nowrap;
+
+  
 }
   
 #input-age-verification input[type="checkbox"]{
@@ -56,6 +59,7 @@ p{
   border-radius: 5%;
   font-family: "Kode Mono", monospace;
   font-weight: 600;
+  color: rgb(0, 0, 0);
 }
 
   
@@ -72,6 +76,8 @@ input[type="submit"] {
 }
 
 
-@media screen and (min-width: 960px){
-
+@media screen and (min-width: 992px){
+    body{
+        background-color: green;
+    }
 }
